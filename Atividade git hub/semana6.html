@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENSAMENTOS COMPUTACIONAIS</title>
+    <link rel="stylesheet" href="semana6.css">
+</head>
+<body>
+
+<div class="box">
+
+    <form id="form" >
+
+        <h1>Calculadora simples</h1>
+
+        <h2>Calculadora para saber a media dos seus 3 ciclos</h2>
+        
+        <label for="nome"> Insira seu nome: </label><br>
+        <input type="text" id= nome required> <br><br>
+        
+        <label for="nota1"> Nota do cliclo 1: </label> <br>
+        <input type="number" id= nota1 min= "0" max= "100" required> <br><br>
+
+        <label for="nota2"> Nota do cliclo 2: </label> <br>
+        <input type="number" id= "nota2" min= "0" max= "100" required> <br><br>
+
+        <label for="nota3">  Nota do cliclo 3: </label> <br>
+        <input type="number" id= "nota3" min= "0" max= "100" required> <br><br>
+
+        <button type="submit">Calcular sua media</button>
+    </form>
+
+    <div id="resultado">
+
+        <h3> Resultado </h3>
+        <p id="mensagem"></p>
+
+    </div>
+
+</div>
+<script src="semana6.js" > </script>
+
+</body>
+</html>
